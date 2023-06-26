@@ -3,11 +3,20 @@
 }
 
 body{
-  font-family:  'Roboto', sans-serif;
+  font-family:  'Graphik LCG', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  background: #EEEFF1;
+  font-size: 20px;
+  line-height: 1.5;
+}
+@font-face {
+  font-family:'Graphik LCG';
+  src: url("../content/fonts/GraphikLCG-Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Graphik LCG semi-bold';
+  src: url("../content/fonts/GraphikLCG-Semibold.woff2");
+  font-weight: 600;
 }
 
 .container{
