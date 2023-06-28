@@ -7,6 +7,9 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  font-size: 50px;
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
 }
 .services__content{
   display: flex;
@@ -21,6 +24,15 @@
   max-width: 330px;
   align-items: center;
   text-align: center;
+  &-head{
+    font-size: 25px;
+    font-weight: var(--font-semibold);
+    line-height: 1.4;
+  }
+  &-text{
+    font-size: 18px;
+    line-height: 1.388;
+  }
   &-img{
     width: 160px;
     height: 120px;
