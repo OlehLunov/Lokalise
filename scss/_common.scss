@@ -29,10 +29,10 @@
   padding-right: 23px;
 
   &:hover{
-    background: none;
-    color: #000000;
+    background: rgba(0,0,0,0);
+    color:#FF6336;
+    box-shadow: inset 0 0 0 3px #FF6336;
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.50);
   }
 }
 
@@ -50,10 +50,10 @@
   padding-right: 41px;
 
   &:hover{
-    background: none;
-    color: #000000;
+    background: rgba(0,0,0,0);
+    color:#FF6336;
+    box-shadow: inset 0 0 0 3px #FF6336;
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.50);
   }
 }
 
