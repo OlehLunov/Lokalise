@@ -1,0 +1,44 @@
+.about{
+  padding-top: 125px;
+  padding-bottom: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &-title{
+      max-width: 493px;
+      font-size: 50px;
+      font-weight: var(--font-semibold);
+      line-height: 1.2;
+    }
+
+    &-text{
+      max-width: 493px;
+      font-size: 20px;
+    }
+
+    &-link{
+      color: #000;
+      font-size: 20px;
+      font-weight: var(--font-semibold);
+      &:hover{
+        color:#FF6336;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.about__reverse{
+  padding-top: 125px;
+  padding-bottom: 125px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
