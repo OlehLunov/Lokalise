@@ -4,5 +4,29 @@
 }
 .title__content{
   background: url("../../img/title.jpg") right no-repeat;
-  
+  display: flex;
+  flex-direction: column;
+  &-head{
+    max-width: 552px;
+    margin-bottom: 50px;
+    font-size: 65px;
+    font-weight: var(--font-semibold);
+    line-height: 1.076;
+  }
+  &-text{
+    max-width: 471px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: left;
+  }
+  &-trial{
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 1.666;
+  }
+}
+.title__btn{
+  display: flex;
+  gap: 10px;
 }

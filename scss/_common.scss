@@ -36,4 +36,42 @@
   }
 }
 
-/*----------------*/
+/*--------title buttons--------*/
+
+.title__btn-fill{
+  height: 60px;
+  background: #FF6336;
+  font-size: 16px;
+  border: none;
+  font-weight: var(--font-semibold);
+  line-height: 2.812;
+  color: #ffffff;
+  padding-left: 41px;
+  padding-right: 41px;
+
+  &:hover{
+    background: none;
+    color: #000000;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+  }
+}
+
+.title__btn-unfill{
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background: transparent;
+  font-size: 16px;
+  font-weight: var(--font-semibold);
+  line-height: 2.812;
+  color: #000;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  &:hover{
+    background: #FF6336;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+  }
+}
