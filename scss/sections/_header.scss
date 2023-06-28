@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+}
+.header__logo{
+  display: block;
+  &-img{
+    vertical-align: middle;
+  }
+}
+.header_menu{
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+.nav__list{
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+
+.header__buttons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

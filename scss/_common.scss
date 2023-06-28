@@ -1,3 +1,23 @@
-btn__header{
+.header__btn-unfill{
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background: transparent;
+  font-size: 16px;
+  font-weight: var(--font-semibold);
+  line-height: 2.812;
+  color: #000;
+  padding-left: 36px;
+  padding-right: 36px;
+}
 
+.header__btn-fill{
+  height: 45px;
+  background: #FF6336;
+  font-size: 16px;
+  border: none;
+  font-weight: var(--font-semibold);
+  line-height: 2.812;
+  color: #ffffff;
+  padding-left: 23px;
+  padding-right: 23px;
 }
