@@ -1,0 +1,36 @@
+.boost{
+  padding-top: 154px;
+  padding-bottom: 154px;
+  &__title{
+    margin-bottom: 90px;
+  }
+}
+.boost__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boost__item{
+  max-width: 410px;
+  &-img{
+    margin-bottom: 50px;
+  }
+  &-head{
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: var(--font-semibold);
+    line-height: 1.333;
+  }
+  &-text{
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  &-link{
+    color: #000000;
+    text-decoration: underline;
+    font-size: 20px;
+    &:hover{
+      color: #FF9C7D;
+    }
+  }
+}
