@@ -4,12 +4,13 @@
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+  border-bottom: 1px solid  #CCCCCC;
 }
 .header__logo{
   display: block;
   &-img{
     vertical-align: middle;
+    padding-bottom: 4px;
   }
 }
 .header_menu{
@@ -21,6 +22,14 @@
   display: flex;
   gap: 55px;
   align-items: center;
+  font-size: 15px;
+  line-height: 1.333;
+  &-link{
+    color: #000000;
+    &:hover{
+      color:#FF6336;
+    }
+  }
 }
 
 .header__buttons{

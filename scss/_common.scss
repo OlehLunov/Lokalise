@@ -8,6 +8,13 @@
   color: #000;
   padding-left: 36px;
   padding-right: 36px;
+
+  &:hover{
+    background: #FF6336;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+  }
 }
 
 .header__btn-fill{
@@ -20,4 +27,11 @@
   color: #ffffff;
   padding-left: 23px;
   padding-right: 23px;
+
+  &:hover{
+    background: none;
+    color: #000000;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+  }
 }
