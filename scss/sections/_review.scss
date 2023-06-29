@@ -1,5 +1,33 @@
 .review{
   background: #DABC98;
+  padding-top: 70px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
+  &__description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 67px;
+    padding-right: 125px;
+    border-right: 1px solid #000000;
+  }
+}
+.points{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  gap: 70px;
+  &__content{
+    &-logo{
+      margin-bottom: 20px;
+    }
+    &-stars{
+      margin-bottom: 14px;
+    }
+    &-text{
+
+    }
+  }
 }
