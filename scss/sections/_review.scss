@@ -11,6 +11,11 @@
     gap: 67px;
     padding-right: 125px;
     border-right: 1px solid #000000;
+    &-text{
+      font-size: 35px;
+      font-weight: var(--font-semibold);
+      line-height: 1.428;
+    }
   }
 }
 .points{
@@ -27,7 +32,9 @@
       margin-bottom: 14px;
     }
     &-text{
-
+      font-size: 15px;
+      line-height: 1.666;
+      letter-spacing: 0.75px;
     }
   }
 }
